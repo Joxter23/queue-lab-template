@@ -8,7 +8,7 @@ class Queue():
 
 
     def pop(self):
-        del self.cards[-1]
+        del self.cards[0]
 
 if __name__ == '__main__':
     #REMOVE PASS AND YOUR CODE GOES HERE
